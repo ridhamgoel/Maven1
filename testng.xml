@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="All Test Suite" parallel="classes" thread-count="2">-->
+<suite name="All Test Suite">
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="URL" value="https://demo.opencart.com"></parameter>
+    <test verbose="2" preserve-order="true" name="C:/Users/User/IdeaProjects/Maven1">
+        <classes>
+            <class name="demo"></class>
+            <class name="textverify"></class>
+        </classes>
+        
+    </test>
+</suite>

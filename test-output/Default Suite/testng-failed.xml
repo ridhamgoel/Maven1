@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="Maven1(failed)">
+    <classes>
+      <class name="textverify">
+        <methods>
+          <include name="demo_1"/>
+        </methods>
+      </class> <!-- textverify -->
+    </classes>
+  </test> <!-- Maven1(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

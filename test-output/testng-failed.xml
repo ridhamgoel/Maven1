@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="URL" value="https://demo.opencart.com"/>
+  <test thread-count="5" name="C:/Users/User/IdeaProjects/Maven1(failed)">
+    <classes>
+      <class name="textverify">
+        <methods>
+          <include name="aftertest"/>
+          <include name="login"/>
+          <include name="beforeSuite"/>
+          <include name="beforeclass"/>
+          <include name="beforetest"/>
+          <include name="afterSuite"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="afterclass"/>
+        </methods>
+      </class> <!-- textverify -->
+    </classes>
+  </test> <!-- C:/Users/User/IdeaProjects/Maven1(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
